@@ -2,18 +2,18 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className="bg-white dark:bg-indigo-700">
+    <section className="bg-white dark:bg-white-700">
     <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div className="mr-auto place-self-center lg:col-span-7">
-        <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+        <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-gray">
         Unlock Your Business Potential – Empowering Growth, Driving Success.
         </h1>
-        <p className="max-w-2xl mb-6 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-white-600">
+        <p className="max-w-2xl mb-6 font-light text-gray lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
         Transform your business with tailored solutions that fuel growth and maximize success.
         </p>
         <a
           href="#"
-          className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+          className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-gray rounded-lg bg-primary-700 hover:bg-primarly-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
         >
           Get started
           <svg
@@ -43,9 +43,9 @@ const Home = () => {
         />
       </div>
     </div>
-    <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 bg-white">
+    <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 bg-indigo-700">
     <div className="max-w-screen-md mb-8 lg:mb-16">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-gray">
+      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
         Designed for business teams like yours
       </h2>
       <p className="text-gray-500 sm:text-xl dark:text-gray-400">
@@ -175,6 +175,49 @@ const Home = () => {
       </div>
     </div>
   </div>
+  <footer className="flex flex-col space-y-10 justify-center m-10 ">
+  <nav className="flex justify-center flex-wrap gap-6 text-gray-500 font-medium">
+    <a className="hover:text-gray-900" href="#">
+      Home
+    </a>
+    <a className="hover:text-gray-900" href="#">
+      About
+    </a>
+    <a className="hover:text-gray-900" href="#">
+      Services
+    </a>
+    <a className="hover:text-gray-900" href="#">
+      Media
+    </a>
+    <a className="hover:text-gray-900" href="#">
+      Gallery
+    </a>
+    <a className="hover:text-gray-900" href="#">
+      Contact
+    </a>
+  </nav>
+  <div className="flex justify-center space-x-5">
+    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
+    </a>
+    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+    </a>
+    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+    </a>
+    <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
+    </a>
+    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
+    </a>
+  </div>
+  <p className="text-center text-gray-700 font-medium">
+    © 2022 Company Ltd. All rights reservered.
+  </p>
+</footer>
+
   </section>
   
   )
